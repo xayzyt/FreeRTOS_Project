@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "usart.h": "c"
+        }
+    },
+    "extensions": {}
+}
