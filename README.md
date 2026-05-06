@@ -1,30 +1,51 @@
-# FreeRTOS Practice
+# FreeRTOS_Project
 
-这个仓库用于记录 FreeRTOS 学习和嵌入式实时系统实践，重点关注任务、调度、同步和资源管理。
+STM32F103 + STM32 HAL + FreeRTOS 实验工程。
 
-## 内容方向
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![STM32F1](https://img.shields.io/badge/STM32F1-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-173B6C?style=flat-square)
+![Keil](https://img.shields.io/badge/Keil_MDK-1F6FEB?style=flat-square)
 
-- FreeRTOS 任务创建与调度
-- 队列、信号量、互斥锁等同步机制
-- 软件定时器和事件组
-- 多任务协作与调试记录
-- 嵌入式实时系统基础实践
+## 内容
 
-## 学习目标
+- FreeRTOS 基础工程
+- 动态创建和删除任务
+- 静态创建和删除任务
+- 中断管理实验
+- 按键、LED、串口等基础外设
 
-- 理解 RTOS 和裸机开发的差异
-- 掌握 FreeRTOS 常用 API 和设计模式
-- 能够将任务拆分、通信和同步应用到实际嵌入式项目中
+## 目录
 
-## 适合展示的能力
+| 目录 | 说明 |
+| --- | --- |
+| `0.FreeRTOS工程/` | 基础工程 |
+| `1.动态创建任务和删除/` | 动态任务实验 |
+| `2.静态创建任务和删除/` | 静态任务实验 |
+| `4.中断管理/` | 中断相关实验 |
 
-- RTOS 基础理解
-- C 语言嵌入式开发能力
-- 多任务程序结构设计
-- 调试实时系统问题的思路
+## 主要文件
 
-## 后续整理计划
+| 路径 | 说明 |
+| --- | --- |
+| `Core/Src/main.c` | 工程入口 |
+| `Core/Src/freertos_demo.c` | FreeRTOS 实验代码 |
+| `Core/Inc/FreeRTOSConfig.h` | FreeRTOS 配置 |
+| `FreeRTOS/Source/` | FreeRTOS 源码 |
+| `Int/Key.c` | 按键驱动 |
+| `Int/LED.c` | LED 驱动 |
+| `MDK-ARM/*.uvprojx` | Keil 工程文件 |
 
-- 补充每个实验的运行环境
-- 增加任务关系图和关键 API 说明
-- 整理常见问题和调试经验
+## 环境
+
+- STM32F103
+- STM32 HAL
+- FreeRTOS
+- Keil MDK
+- STM32CubeMX
+
+## 使用
+
+1. 进入对应实验目录。
+2. 打开 `MDK-ARM/` 下的 `.uvprojx` 文件。
+3. 使用 Keil 编译、下载和调试。
