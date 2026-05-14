@@ -1,0 +1,18 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "freertos.h": "c",
+            "string.h": "c",
+            "stdlib.h": "c",
+            "task.h": "c",
+            "freertos_demo.h": "c",
+            "stdio.h": "c"
+        }
+    },
+    "extensions": {}
+}
