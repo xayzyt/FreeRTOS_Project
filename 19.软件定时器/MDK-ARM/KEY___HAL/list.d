@@ -1,0 +1,12 @@
+key___hal\list.o: ..\FreeRTOS\Source\list.c
+key___hal\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+key___hal\list.o: ../FreeRTOS/include/FreeRTOS.h
+key___hal\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+key___hal\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+key___hal\list.o: ../Core/Inc/FreeRTOSConfig.h
+key___hal\list.o: ../FreeRTOS/include/projdefs.h
+key___hal\list.o: ../FreeRTOS/include/portable.h
+key___hal\list.o: ../FreeRTOS/include/deprecated_definitions.h
+key___hal\list.o: ../FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h
+key___hal\list.o: ../FreeRTOS/include/mpu_wrappers.h
+key___hal\list.o: ../FreeRTOS/include/list.h
